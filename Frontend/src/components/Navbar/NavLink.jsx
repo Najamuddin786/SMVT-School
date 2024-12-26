@@ -15,7 +15,7 @@ export default function NavLink({gapin}) {
   const [hoveredMenuIndex, setHoveredMenuIndex] = useState(null);
 
   const navigationMenu = [
-    { title: "Home", link: "/" },
+    { title: "Home", link: "/home" },
     {
       title: "Admission",
       link: "/admission",

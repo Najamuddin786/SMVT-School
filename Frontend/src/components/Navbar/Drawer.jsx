@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button"
 import { IoMenuOutline } from "react-icons/io5";
 import { Image } from "@chakra-ui/react";
 import { Box,Flex } from "@chakra-ui/react";
-import NavLink from "./NavLink";
+import NavLink2 from "./NavLink2";
 import {
   DrawerActionTrigger,
   DrawerBackdrop,
@@ -28,7 +28,7 @@ export default function Drawer(){
         </DrawerHeader>
         <DrawerBody>
             <Flex  justifyContent={'space-around'} alignItems='center' h='full' flexDirection={'column'} >
-                {<NavLink gapin='6'/>}
+                {<NavLink2 gapin='4'/>}
                 <Box bg='red' mx='-23px' border={'1px solid blue'}>
                     <Image src='https://www.yugmarg.com/images/news/full3343.jpg'/>
                 </Box>
