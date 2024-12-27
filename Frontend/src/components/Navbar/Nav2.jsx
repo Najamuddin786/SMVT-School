@@ -55,7 +55,7 @@ export default function Nav2() {
   return (
     <Flex bg='white' alignItems="center" py="20px" px={{ base: "5vw" }} justifyContent="space-between">
       {/* ------- Logo ---- */}
-      <HStack fontSize="30px" fontWeight="600" color={'green.500'}>
+      <HStack  fontSize="30px" fontWeight="600" color={'blue.400'}>
         SRMVT-School
       </HStack>
 

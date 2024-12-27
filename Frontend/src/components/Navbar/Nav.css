@@ -1,0 +1,71 @@
+.leSnake span { animation: leSnake 1.5s ease-in-out; animation-iteration-count: infinite }
+@keyframes leSnake {
+    from, to { transform: translateY(0px) }
+    50% { transform: translateY(30px) }
+}
+
+
+
+#pot {
+    position: relative;
+    animation: run 12s linear infinite;
+  }
+  
+  @keyframes run {
+    0% {
+      left: 100%;
+    }
+    100% {
+      left: -60%;
+    }
+  }
+  
+  /* Media query for smaller screens (below 768px) */
+  @media (max-width: 550px) {
+    #pot {
+      animation-name: run-small; /* Use a different keyframe for small screens */
+      animation-duration: 7s;    /* Faster animation */
+    }
+  
+    @keyframes run-small {
+      0% {
+        left: 100%;
+      }
+      100% {
+        left: -450%; /* Shorter scroll for small screens */
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    #pot {
+      animation-name: run-small; /* Use a different keyframe for small screens */
+      animation-duration: 7s;    /* Faster animation */
+    }
+  
+    @keyframes run-small {
+      0% {
+        left: 100%;
+      }
+      100% {
+        left: -300%; /* Shorter scroll for small screens */
+      }
+    }
+  }
+  
+  /* Media query for medium screens (768px to 1024px) */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    #pot {
+      animation-name: run-medium; /* Use a different keyframe for medium screens */
+      animation-duration: 7s;     /* Medium animation speed */
+    }
+  
+    @keyframes run-medium {
+      0% {
+        left: 100%;
+      }
+      100% {
+        left: -150%; /* Slightly shorter scroll for tablets */
+      }
+    }
+  }
+  
