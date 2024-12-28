@@ -4,9 +4,26 @@ import Nav2 from "./Nav2";
 import ImageSlider from "./ImageSlider";
 import Nav3 from "./Nav3";
 
-export default function NavMain(){
+export default function NavMain({non,allnon}){
 
-    return <>
+    if(allnon){
+        return <>
+            <Flex bg='white' zIndex={1100} flexDirection={'column'} position={'sticky'} top='0px'>
+                <Nav1/>
+                <Nav2/>
+            </Flex>
+    </>
+
+    }else if(non){
+        return <>
+            <Flex bg='white' zIndex={1100} flexDirection={'column'} position={'sticky'} top='0px'>
+                <Nav1/>
+                <Nav2/>
+            </Flex>
+            <Nav3/>
+    </>
+    }else{
+        return <>
             <Flex bg='white' zIndex={1100} flexDirection={'column'} position={'sticky'} top='0px'>
                 <Nav1/>
                 <Nav2/>
@@ -14,4 +31,5 @@ export default function NavMain(){
             <ImageSlider/>
             <Nav3/>
     </>
+    }
 }
