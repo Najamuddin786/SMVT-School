@@ -63,15 +63,15 @@ With this, I optimistically hope that together we, the management, along with th
             <Flex gap='8' flexDirection={'column'} boxShadow={'xl'} my='5' py='10' bg='#FFFBF3' px={{base:"5vw",lg:"5vw"}}>
                 <Flex  gap='2' fontSize={{base:"18px",sm:"24px",lg:"30px"}} fontWeight={'600'}>
                     <Box fontFamily={'cursive'} color={'white'} textAlign={'center'}  borderRadius={'20px 2px'} bg='red' w='50px' >M</Box>
-                    <Box>Management & Leadership Team</Box>
+                    <Box className="cssanimation lePeek sequence cssanimation effect3d">Management & Leadership Team</Box>
                 </Flex>
 
-                <Flex flexWrap={{base:'nowrap',sm:"wrap",lg:"nowrap"}} flexDirection={{base:"column",sm:"row"}} gap='5' justifyContent={{base:"center",md:"space-between"}}>
+                <Flex  flexWrap={{base:'nowrap',sm:"wrap",lg:"nowrap"}} flexDirection={{base:"column",sm:"row"}} gap={{base:"10",md:"5"}} justifyContent={{base:"center",md:"space-between"}}>
                         {teamMembers.map((e,i)=>{
                             return <VStack pb='3' bg='white' key={i} borderRadius={'md'} boxShadow={'md'}>
                                     <Box w='100%'><Image w='100%' borderRadius={'md'} src={e.img}/></Box>
                                     <VStack>
-                                        <Text fontSize={{base:"18px",sm:"20px",md:"22px"}} fontWeight={'700'}>{e.pos}</Text>
+                                        <Text className="cssanimation effect3d" fontSize={{base:"18px",sm:"20px",md:"22px"}} fontWeight={'700'}>{e.pos}</Text>
                                         <Text fontFamily={'cursive'}>{e.name}</Text>
                                         <Link state={{user:e}} to={`/home/${e.pos}`}>
                                         <HStack alignItems={'center'} color={'blue.400'}>
