@@ -9,7 +9,7 @@ export default function MapMain() {
                 boxShadow="xl"
                 my="5"
                 py="10"
-                bg="#FFFBF3"
+                bg="white"
                 px={{ base: "5vw", lg: "5vw" }}
             >
                 {/* Title Section */}

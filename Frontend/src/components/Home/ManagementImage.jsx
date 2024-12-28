@@ -56,11 +56,12 @@ Our goal is to make Indirapuram Public School the cradle of leadership and value
 
 With this, I optimistically hope that together we, the management, along with the principal, teachers, administrative staff, our students, and their parents, will work hand-in-hand to realise the targets we have set out for ourselves.`
         }
-      ];
+        
+    ];
       
 
     return <>
-            <Flex gap='8' flexDirection={'column'} boxShadow={'xl'} my='5' py='10' bg='#FFFBF3' px={{base:"5vw",lg:"5vw"}}>
+            <Flex  gap='8' flexDirection={'column'} boxShadow={'xl'} my='5' py='10' bg='#FFFBF3' px={{base:"5vw",lg:"5vw"}}>
                 <Flex  gap='2' fontSize={{base:"18px",sm:"24px",lg:"30px"}} fontWeight={'600'}>
                     <Box fontFamily={'cursive'} color={'white'} textAlign={'center'}  borderRadius={'20px 2px'} bg='red' w='50px' >M</Box>
                     <Box className="cssanimation lePeek sequence cssanimation effect3d">Management & Leadership Team</Box>
