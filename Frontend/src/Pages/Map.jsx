@@ -5,6 +5,7 @@ import MapMain from "../components/Map/MapMain";
 import { useRef, useEffect } from "react";
 import NavMain from "../components/Navbar/NavMain";
 
+
 export default function Map() {
     const mapMainRef = useRef(null);
 

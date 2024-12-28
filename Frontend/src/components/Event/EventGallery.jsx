@@ -86,7 +86,7 @@ function View({ events }) {
     );
 }
 
-export default function EventUpcoming({ allnon }) {
+export default function EventGallery({ allnon }) {
     const events = [
         {
           eventName: "Cultural Day Celebration",
