@@ -7,6 +7,8 @@ import EventGallery from "./Event/EventGallery"
 import EventPast from "./Event/EventPast"
 import EventUpcoming from "./Event/EventUpcoming"
 
+import ContactUs from "../Pages/ContactUs"
+
 
 export default function AllRoutes(){
 
@@ -19,6 +21,7 @@ export default function AllRoutes(){
                 <Route path="/event/gallery" element={<EventGallery />} />
                 <Route path="/event/past" element={<EventPast />} />
                 <Route path="/event/upcoming" element={<EventUpcoming />} />
+                <Route path="/contact" element={<ContactUs />} />
             </Routes>
     </>
 }
