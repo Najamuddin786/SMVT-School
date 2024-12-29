@@ -8,6 +8,7 @@ import EventPast from "./Event/EventPast"
 import EventUpcoming from "./Event/EventUpcoming"
 
 import ContactUs from "../Pages/ContactUs"
+import Footer from "./Footer"
 
 
 export default function AllRoutes(){
@@ -23,5 +24,6 @@ export default function AllRoutes(){
                 <Route path="/event/upcoming" element={<EventUpcoming />} />
                 <Route path="/contact" element={<ContactUs />} />
             </Routes>
+            <Footer/>
     </>
 }

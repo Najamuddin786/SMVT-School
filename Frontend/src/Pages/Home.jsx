@@ -16,6 +16,6 @@ export default function Home(){
             {/* --------------- */}
             <EventGallery allnon='true'/>
             {/* --------------- */}
-            <Footer/>
+            {/* <Footer/> */}
     </>
 }

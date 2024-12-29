@@ -28,7 +28,7 @@ export default function Map() {
             </Box> */}
             <MapMain/>
             {/* --------------- */}
-            <Footer />
+            {/* <Footer /> */}
         </>
     );
 }
