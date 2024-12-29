@@ -34,7 +34,7 @@ export default function Nav2() {
           {title:"Mission",link:'/about/mission'},
           {title:"Vision",link:'/about/vision'},
           {title:"Faculty",link:'/about/faculty'},
-          {title:"Why SRMVT",link:'/about/whysrmvt'},
+          {title:"Why SRMVT",link:'/about/srmvt'},
       ]
      },
     {
