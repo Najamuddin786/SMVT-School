@@ -44,7 +44,8 @@ export default function Nav1() {
     <>
       <Flex
         justifyContent={"space-between"}
-        bg="blackAlpha.100"
+        // bg="blackAlpha.100"
+        bg='blue.100'
         color={"blackAlpha.800"}
         px={{ base: "5vw" }}
         py="5px"

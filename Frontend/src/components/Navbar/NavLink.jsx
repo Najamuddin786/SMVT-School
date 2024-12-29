@@ -21,12 +21,22 @@ export default function NavLink({gapin}) {
       link: "/admission",
       subMenu: [
         { title: "Apply Online", link: "/admission/apply" },
+        { title: "Fee Structure", link: "/admission/fee_structure" },
         { title: "Eligibility", link: "/admission/eligibility" },
         { title: "Important Dates", link: "/admission/dates" },
+
        
       ],
     },
-    { title: "About Us", link: "/about" },
+    { title: "About Us", link: "/about" ,
+      subMenu:[
+        {title:"School History",link:'/about/history'},
+        {title:"Mission",link:'/about/mission'},
+        {title:"Vision",link:'/about/vision'},
+        {title:"Faculty",link:'/about/faculty'},
+        {title:"Why SRMVT",link:'/about/whysrmvt'},
+    ]
+    },
     {
       title: "Facilities",
       link: "/facilities",
@@ -34,6 +44,9 @@ export default function NavLink({gapin}) {
         { title: "Library", link: "/facilities/library" },
         { title: "Sports", link: "/facilities/sports" },
         { title: "Hostel", link: "/facilities/hostel" },
+        { title: "Computer Class", link: "/facilities/computer" },
+        { title: "C.C.T.V Camera", link: "/facilities/camera" },
+        { title: "Transportation", link: "/facilities/transportation" },
       ],
     },
     { title: "Map", link: "/map" },
@@ -44,6 +57,7 @@ export default function NavLink({gapin}) {
         { title: "Upcoming Events", link: "/event/upcoming" },
         { title: "Past Events", link: "/event/past" },
         { title: "Event Gallery", link: "/event/gallery" },
+        { title: "Event Video", link: "/event/video" },
       ],
     },
     { title: "Contact Us", link: "/contact" },

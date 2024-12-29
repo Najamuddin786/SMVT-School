@@ -9,6 +9,7 @@ import EventUpcoming from "./Event/EventUpcoming"
 
 import ContactUs from "../Pages/ContactUs"
 import Footer from "./Footer"
+import EventVideo from "./Event/EventVideo"
 
 
 export default function AllRoutes(){
@@ -22,6 +23,7 @@ export default function AllRoutes(){
                 <Route path="/event/gallery" element={<EventGallery />} />
                 <Route path="/event/past" element={<EventPast />} />
                 <Route path="/event/upcoming" element={<EventUpcoming />} />
+                <Route path="/event/video" element={<EventVideo />} />
                 <Route path="/contact" element={<ContactUs />} />
             </Routes>
             <Footer/>
